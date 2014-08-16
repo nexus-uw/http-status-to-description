@@ -7,8 +7,8 @@ Note: Every REST API is different (or not a true REST API), and may have differe
 
 How to Use
 -----------
- 1 in the terminal
+ 1 in the terminal  
   `npm install http-status-to-description`  
- 2 and then in your node project
+ 2 and then in your node project  
  `var httpStatusToDescription = require('http-status-to-description');  
   httpStatusToDescription('200');`
