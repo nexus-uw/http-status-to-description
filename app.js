@@ -4,7 +4,7 @@
 // retrieved Aug 16, 2014
 module.exports = function(statusCode) {
   if (typeof statusCode === 'string') {
-    statusCode = parseInt(statusCode);
+    statusCode = parseInt(statusCode,null);
   }
   switch (statusCode) {
     case 100:
