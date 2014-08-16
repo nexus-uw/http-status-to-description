@@ -1,0 +1,33 @@
+{
+  "name": "http-status-to-description",
+  "version": "0.0.1",
+  "description": "A node module to simply convert HTTP status codes to their common english description",
+  "main": "app.js",
+  "private": false,
+  "repository": "git@github.com:nexus-uw/http-status-to-description.git",
+  "keywords": [
+    "http",
+    "http status code",
+    "http description"
+  ],
+  "author": "Simon Ramsay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nexus-uw/http-status-to-description/issues"
+  },
+  "homepage": "https://github.com/nexus-uw/http-status-to-description",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "codeclimate-test-reporter": "0.0.3",
+    "istanbul": "^0.3.0",
+    "mocha": "^1.20.1"
+  }
+}
