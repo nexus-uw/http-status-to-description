@@ -1,6 +1,8 @@
 http-status-to-description  [![Build Status](https://travis-ci.org/nexus-uw/http-status-to-description.svg)](https://travis-ci.org/nexus-uw/http-status-to-description)[![Test Coverage](https://codeclimate.com/github/nexus-uw/http-status-to-description/badges/coverage.svg)](https://codeclimate.com/github/nexus-uw/http-status-to-description)
 ==========================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nexus-uw/http-status-to-description.svg)](https://greenkeeper.io/)
+
 A node module to simply convert HTTP status codes to their common english description.
 
 Note: Every REST API is different (or not a true REST API), and may have different meaning associated with their response statuses or use unassigned statuses for custom responses. Always check if the response has a message in the body or header before using this lib's descriptions. It is intended as a fall back.
