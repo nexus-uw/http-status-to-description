@@ -25,9 +25,9 @@
   "dependencies": {
   },
   "devDependencies": {
-    "chai": "^1.9.1",
-    "codeclimate-test-reporter": "0.0.3",
-    "istanbul": "^0.3.0",
-    "mocha": "^1.20.1"
+    "chai": "^3.5.0",
+    "codeclimate-test-reporter": "0.4.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.1"
   }
 }
